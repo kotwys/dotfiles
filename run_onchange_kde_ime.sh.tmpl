@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# Depends on: {{ include "src/kde_ime.c" | sha256sum }}
+
+TARGET="$HOME/.local/bin/kde_ime"
+mkdir -p "$(dirname "$TARGET")"
+
+CC=gcc
+
+$CC {{ .chezmoi.sourceDir }}/src/kde_ime.c \
+  -o "$TARGET" \
+  `pkg-config --cflags --libs libsystemd`

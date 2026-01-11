@@ -1,0 +1,19 @@
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd extendedglob
+bindkey -e
+zstyle :compinstall filename '/home/kotwys/.zshrc'
+
+autoload -Uz compinit
+compinit
+
+# Colorization
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+# Prompt configuration
+eval "$(starship init zsh)"
+export PS2="  $PS2"
+
+export PATH="$HOME/.local/bin:$PATH"

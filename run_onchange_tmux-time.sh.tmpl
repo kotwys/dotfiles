@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# Depends on: {{ include "src/tmux-time.c" | sha256sum }}
+
+TARGET="$HOME/.local/bin/tmux-time"
+mkdir -p "$(dirname "$TARGET")"
+
+CC=gcc
+
+$CC {{ .chezmoi.sourceDir }}/src/tmux-time.c -o "$TARGET"

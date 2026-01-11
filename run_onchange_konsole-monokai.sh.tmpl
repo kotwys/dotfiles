@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+TARGET="$HOME/.local/share/konsole/Monokai.colorscheme"
+mkdir -p "$(dirname "$TARGET")"
+
+curl -sL "https://github.com/maurodec/konsole-monokai/raw/refs/heads/master/Monokai.colorscheme" -o "$TARGET"
+
+sed -i '/BackgroundIntense/{n;s/.*/Color=117,113,94/}' "$TARGET"
+sed -i '/Color0Intense/{n;s/.*/Color=117,113,94/}' "$TARGET"
