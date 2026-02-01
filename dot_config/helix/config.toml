@@ -1,0 +1,6 @@
+theme = "monokai"
+
+[editor.statusline]
+mode.normal = "通常"
+mode.insert = "挿入"
+mode.select = "選択"
