@@ -1,10 +1,5 @@
 include "%L"
 
-<Multi_key> <d> <z> : "ʒ"
-<Multi_key> <D> <Z> : "Ʒ"
-<Multi_key> <d> <x> : "ǯ"
-<Multi_key> <D> <X> : "Ǯ"
-
 # Pre-1917 orthography
 <Multi_key> <Cyrillic_IE> <Cyrillic_IE> : "Ѣ"
 <Multi_key> <Cyrillic_ie> <Cyrillic_ie> : "ѣ"
@@ -12,6 +7,19 @@ include "%L"
 <Multi_key> <Cyrillic_i> <Cyrillic_i> : "ѵ"
 <Multi_key> <Cyrillic_EF> <Cyrillic_EF> : "Ѳ"
 <Multi_key> <Cyrillic_ef> <Cyrillic_ef> : "ѳ"
+
+# Old Russian
+<Multi_key> <Cyrillic_o> <Cyrillic_u> : "ѹ"
+<Multi_key> <Cyrillic_ya> <Cyrillic_ya> : "ѧ"
+<Multi_key> <Cyrillic_yu> <Cyrillic_yu> : "ѫ"
+<Multi_key> <Cyrillic_i> <Cyrillic_a> : "ꙗ"
+<Multi_key> <Cyrillic_i> <Cyrillic_e> : "ѥ"
+<Multi_key> <Cyrillic_i> <Cyrillic_ya> : "ѩ"
+<Multi_key> <Cyrillic_i> <Cyrillic_yu> : "ѭ"
+<Multi_key> <Cyrillic_ze> <Cyrillic_ze> : "ꙁ"
+<Multi_key> <Cyrillic_de> <Cyrillic_ze> : "ѕ"
+<Multi_key> <Cyrillic_o> <Cyrillic_tse> : "ѡ"
+<Multi_key> <Cyrillic_o> <Cyrillic_te> : "ѿ"
 
 # Ukrainian and Belarusian
 <Multi_key> <Cyrillic_YERU> <Cyrillic_YERU> : "І"
