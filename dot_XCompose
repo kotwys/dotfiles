@@ -9,9 +9,13 @@ include "%L"
 <Multi_key> <Cyrillic_ef> <Cyrillic_ef> : "ѳ"
 
 # Old Russian
-<Multi_key> <Cyrillic_o> <Cyrillic_u> : "ѹ"
+<Multi_key> <Cyrillic_io> <Cyrillic_io> : U0483 # Combining Cyrillic Titlo
+<Multi_key> <Cyrillic_u> <Cyrillic_tse> : "ꙋ"
+<Multi_key> <Cyrillic_U> <Cyrillic_TSE> : "Ꙋ"
 <Multi_key> <Cyrillic_ya> <Cyrillic_ya> : "ѧ"
+<Multi_key> <Cyrillic_YA> <Cyrillic_YA> : "Ѧ"
 <Multi_key> <Cyrillic_yu> <Cyrillic_yu> : "ѫ"
+<Multi_key> <Cyrillic_YU> <Cyrillic_YU> : "Ѫ"
 <Multi_key> <Cyrillic_i> <Cyrillic_a> : "ꙗ"
 <Multi_key> <Cyrillic_i> <Cyrillic_e> : "ѥ"
 <Multi_key> <Cyrillic_i> <Cyrillic_ya> : "ѩ"
@@ -20,6 +24,7 @@ include "%L"
 <Multi_key> <Cyrillic_de> <Cyrillic_ze> : "ѕ"
 <Multi_key> <Cyrillic_o> <Cyrillic_tse> : "ѡ"
 <Multi_key> <Cyrillic_o> <Cyrillic_te> : "ѿ"
+<Multi_key> <Cyrillic_yeru> <Cyrillic_hardsign> : "ꙑ"
 
 # Ukrainian and Belarusian
 <Multi_key> <Cyrillic_YERU> <Cyrillic_YERU> : "І"
@@ -32,14 +37,6 @@ include "%L"
 <Multi_key> <Cyrillic_e> <Cyrillic_e> : "є"
 <Multi_key> <Cyrillic_GHE> <Cyrillic_GHE> : "Ґ"
 <Multi_key> <Cyrillic_ghe> <Cyrillic_ghe> : "ґ"
-
-# Serbian
-<Multi_key> <Cyrillic_EL> <Cyrillic_SOFTSIGN> : "Љ"
-<Multi_key> <Cyrillic_el> <Cyrillic_softsign> : "љ"
-<Multi_key> <Cyrillic_EN> <Cyrillic_SOFTSIGN> : "Њ"
-<Multi_key> <Cyrillic_en> <Cyrillic_softsign> : "њ"
-<Multi_key> <Cyrillic_CHE> <Cyrillic_CHE> : "Ћ"
-<Multi_key> <Cyrillic_che> <Cyrillic_che> : "ћ"
 
 # Turkic
 <Multi_key> <Cyrillic_A> <Cyrillic_A> : "Ә"
@@ -70,3 +67,7 @@ include "%L"
 # Mari
 <Multi_key> <Cyrillic_EN> <Cyrillic_GHE> : "Ҥ"
 <Multi_key> <Cyrillic_en> <Cyrillic_ghe> : "ҥ"
+
+# Kildin Sami
+<Multi_key> <Cyrillic_SOFTSIGN> <Cyrillic_SOFTSIGN> : "Ҍ"
+<Multi_key> <Cyrillic_softsign> <Cyrillic_softsign> : "ҍ"
